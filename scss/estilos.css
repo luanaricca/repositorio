@@ -1,0 +1,271 @@
+/* No CSS *//*# sourceMappingURL=estilos.css.map */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(231, 239, 250);
+    font-family: montserrat, roboto;
+    padding-top: 50px;
+}
+.italica{
+    font-style: italic;
+}
+.negrita{
+    font-weight: bold;
+}
+.textogrande{
+    font-size: 200%;
+}
+header{
+    text-align: right;
+    background-color: #D1DAE3;
+    padding-bottom: 20px;
+}
+h1 {
+    color: grey;
+    font-size: 36px;
+    font-style: normal;
+    font-family: montserrat, roboto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ 
+h2 {
+    color: grey;
+    font-size: 30px;
+    font-family: montserrat, roboto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: grey;
+    font-size: 28px;
+    font-style: normal;
+    font-family: montserrat, roboto;
+    text-align: center;
+    text-decoration: double;
+    letter-spacing: 7px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h4 {
+    color:white;
+    font-size: 20px;
+    font-style: normal;
+    font-family: montserrat, roboto;    
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #B3C2D1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+p {
+    color: gray;
+    font-size: 18px;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2.5em;
+    word-spacing: 10px;
+}
+.productos {
+    color:grey
+}
+.materiales {
+    color: darkcyan
+}
+.titulotabla {
+    color: #4DABB2;
+    font-size: larger;
+}
+nav {
+    background-color: #B3C2D1;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    z-index: 999
+}
+table {
+    background-color: lightgray;
+    font-size: 20px;
+}
+.imgcentrado{
+    margin:10px auto;
+	display:block;
+    min-width: 200px;
+    min-height: 200px;
+    transition: all 2s;
+}
+
+.logo{
+    margin:10px auto;
+	display:block;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.centrado{
+    text-align: center;
+    font-size: 20px;    
+    width: 75%;
+    margin: auto;
+}
+.overview{
+    border-top: darkblue 16px solid;
+    border-bottom: gray 8px solid;
+    border-left: #B3C2D1 8px solid;
+    border-right: #B3C2D1 8px solid;
+    width: 300px;
+    height: 400px;
+    font-size: 45px;
+    overflow: hidden;
+    margin: 50px 10px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: lightgrey;
+}
+.ejemplo p{
+    display: inline;
+    background-color: burlywood;
+}
+.ejemplo span{
+    display: block;
+    background-color: lightgreen;
+}
+.mainmenu ul{
+    list-style: none;
+    font-size: 0;    
+}
+.mainmenu ul ul{
+    position: absolute;
+    display: none;
+    background-color: lightgrey;
+    color: gray;
+}
+
+.mainmenu ul ul li{
+    display: block;
+    width: 150px;
+}
+.mainmenu ul li:hover ul{
+    display: block;
+}
+.mainmenu li{
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    font-size: 16px;    
+}
+
+.mainmenu{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+}
+.mainmenu a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    padding-top: 100px;
+}
+
+.h1header{
+    padding-top: 50px;
+}
+
+.formulario{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #B3C2D1;
+    color: white;
+}
+
+legend{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.datos{
+    background-color: #D1DAE3;    
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: flex-end;
+    align-content: stretch;
+}
+.menosuno{
+    order: -1;
+    flex-basis: 100px;
+}
+.form {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.grid {
+    display: grid;
+    padding: 50px;
+    border: solid 1px;
+    background-color: rgb(217, 242, 250);
+    font-size: 22px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px; 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;    
+ }
+
+.datos{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.boton {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .miestilo {
+    background-color: lightpink;
+}
+}
+@media (max-width: 768px) {
+    .miestilo {
+    text-align: left;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .carousel {
+    display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+    display: none;
+}
+}
