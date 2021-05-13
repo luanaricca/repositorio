@@ -76,6 +76,7 @@ p {
     line-height: 2.5em;
     word-spacing: 10px;
 }
+
 .productos {
     color:grey
 }
@@ -110,7 +111,22 @@ table {
     margin:10px auto;
 	display:block;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 200px;    
+    animation-name: latido;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+@keyframes latido {
+    0%{width: 200px;}
+    25%{width: 250px;}
+    35%{width: 200px;}
+    50%{width: 240px;}
+    75%{width: 250px;}
+    90%{width: 220px;}
+    100%{width: 200px;}
 }
 
 .centrado{
@@ -226,6 +242,8 @@ legend{
     border: solid 1px;
     background-color: rgb(217, 242, 250);
     font-size: 22px;
+    color: gray;
+    text-align: center;
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: 400px; 
     grid-column-gap: 20px;
